@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #000;
+    height: 30px;
+    padding: 5px;
+}
+header img{
+    height: 20px;
+}
+.ms_btn-dark{
+    border-radius: 20px;
+}
+section.ms_container{
+    width: 100%;
+    height: 525px;
+    background-size: cover;
+    background-position: center;
+}
+section.returnal{
+    background-image: url('../img/jumbo-bg.png');
+}
+section:nth-child(odd) {
+    color: white;
+}
+
+
+
+
