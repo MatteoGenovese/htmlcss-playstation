@@ -26,6 +26,11 @@ section.returnal{
 section:nth-child(odd) {
     color: white;
 }
+.ms_btn-red{
+    border-radius: 20px;
+    background-color: #CD3D0F;
+    color: white;
+}
 
 
 
