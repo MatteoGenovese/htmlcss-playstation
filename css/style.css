@@ -23,16 +23,23 @@ section.ms_container{
 section.returnal{
     background-image: url('../img/jumbo-bg.png');
 }
-section:nth-child(odd) {
-    color: white;
+.dark-gray-section{
+    background-color: #1F1F1F;
+    color: #FFFFFF;
 }
-section:nth-child(even) {
-    color: #727272;
-}
-section:nth-child(even) h2{
-    color: black;
+.light-gray-section{
+    background-color: #BEBCBB;
+    color: #000;
 }
 
+.dark-blue-section{
+    background-color: #161C3B;
+    color: #F5F5F5;
+}
+.light-blue-section{
+    background-color: #00439C;
+    color:#FFFFFF;
+}
 
 
 .ms_btn-red{
@@ -77,5 +84,7 @@ section:nth-child(even) h2{
 .it_takes_two{
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
 }
+
+
 
 
