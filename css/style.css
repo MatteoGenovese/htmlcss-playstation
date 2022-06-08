@@ -11,6 +11,10 @@ header{
 header img{
     height: 20px;
 }
+
+section{
+    padding: 10px 0;
+}
 .ms_btn-dark{
     border-radius: 20px;
 }
@@ -85,6 +89,14 @@ section.returnal{
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
 }
 
-
+.quote{
+    color: #0072CE;
+}
+h2{
+    margin-bottom: 25px;
+}
+.descr{
+    margin-bottom: 20px;
+}
 
 
