@@ -1,12 +1,24 @@
+
+/* -----------------------------RESET */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
+
+
+
 header{
     background-color: #000;
     height: 30px;
     padding: 5px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
 }
 header img{
     height: 20px;
@@ -17,6 +29,13 @@ section{
 }
 .ms_btn-dark{
     border-radius: 20px;
+}
+
+.first-section{
+    margin-top: 105px;
+}
+#navbarDropdownMenuLink{
+    color: #000;
 }
 section.ms_container{
     width: 100%;
@@ -31,18 +50,30 @@ section.returnal{
     background-color: #1F1F1F;
     color: #FFFFFF;
 }
+.dark-blue-section{
+    background-color: #161C3B;
+    color: #F5F5F5;
+}
+
+.block{
+    display: block;
+}
+
 .light-gray-section{
     background-color: #BEBCBB;
     color: #000;
 }
 
-.dark-blue-section{
-    background-color: #161C3B;
-    color: #F5F5F5;
-}
 .light-blue-section{
     background-color: #00439C;
     color:#FFFFFF;
+}
+.white-section{
+    color: #727272;
+}
+.white-section h2
+{
+    color: #000;
 }
 
 
@@ -50,6 +81,21 @@ section.returnal{
     border-radius: 20px;
     background-color: #CD3D0F;
     color: white;
+}
+.ms_btn-blue{
+    border-radius: 20px;
+    background-color: #2D64E6;
+    color: white;
+}
+.ms_btn-gray{
+    border-radius: 20px;
+    background-color: #D9DADC;
+    color: #2D64E6;
+}
+.ms_btn-white{
+    border-radius: 20px;
+    background-color: #F5F5F5;
+    color: #000;
 }
 
 .col-xs-15,
@@ -94,9 +140,47 @@ section.returnal{
 }
 h2{
     margin-bottom: 25px;
+
 }
 .descr{
     margin-bottom: 20px;
 }
 
+.opacity{
+    filter: opacity(0.5);
+}
+.opacity:hover{
+    filter: opacity(1);
+}
 
+/* bootstrap */
+
+
+.navbar{
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+    top: 30px;
+}
+
+
+
+
+
+.dropdown, .dropdown-center, 
+.dropend, .dropstart, 
+.dropup, .dropup-center {
+    position: static;
+}
+
+.dropdown-menu[data-bs-popper] {
+    top: 96%;
+    width: 100%;
+}
+
+.dropdown-menu.show {
+    display: flex;
+    justify-content: center;
+    
+}
